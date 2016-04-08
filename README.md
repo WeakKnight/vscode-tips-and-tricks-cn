@@ -6,15 +6,15 @@
 2. <a href="#customization">个性化</a>
 3. <a href="#extensions">插件扩展</a>
 4. <a href="#file-and-folder-management">文件及文件夹管理</a>
-5. <a href="#editing-hacks">Editing hacks</a>
-6. <a href="#intellisense">Intellisense</a>
-7. <a href="#snippets">Snippets</a>
-8. <a href="#git-integration">Git integration</a>
-9. <a href="#debugging">Debugging</a>
+5. <a href="#editing-hacks">高级编辑操作</a>
+6. <a href="#intellisense">智能提示</a>
+7. <a href="#snippets">代码片段生成</a>
+8. <a href="#git-integration">Git集成</a>
+9. <a href="#debugging">调试</a>
 10. <a href="#task-runner">Task runner</a>
-11. <a href="#other-resources">Other Resources</a>
+11. <a href="#other-resources">其他资源</a>
 
-> The key bindings below may or may not be accurate with the latest build. Check on the Default Keyboard shortcuts file. 
+> 文中提到的快捷键操作可能会和最新版本的软体有所不同。请查看默认的快捷键配置文件。
 
 # 基本
 
@@ -93,13 +93,13 @@ code --help
 
 ![status errors and warnings](/media/status_errors_warnings.png)
 
-**Update extensions**
+**更新扩展插件**
 
-Badges will appear in the bottom left of the status bar. 
+相关标识会出现在状态条的左下位置。
 
 ![extension actions](/media/extension_actions.png)
 
-**Change language mode**
+**改变语言模式**
 
 > Mac: <kbd>cmd+k m</kbd>
 
@@ -109,13 +109,13 @@ Badges will appear in the bottom left of the status bar.
 
 ![change syntax](/media/change_syntax.gif)
 
-# Customization
+# 个性化
 
-Lots of things you can do here. Check out the full [documentation](http://code.visualstudio.com/docs/customization/overview). 
+关于个性化有非常多的内容，如果想了解更多请查阅[文档](http://code.visualstudio.com/docs/customization/overview)。
 
-## Customize editor
+## 定制编辑器
 
-Open `settings.json` 
+打开 `settings.json` 
 
 > Mac: <kbd>cmd+,</kbd>
 
@@ -123,13 +123,13 @@ Open `settings.json`
 
 > Windows / Linxu: File -> Preferences -> User Settings
 
-*Change the font size*
+*改变字体大小*
 
 ```json
 "editor.fontSize": 18
 ```
 
-*Change the size of tab characters*
+*改变缩进的字符长度*
 
 ```json
 "editor.tabSize": 4
@@ -141,9 +141,9 @@ Open `settings.json`
 "editor.insertSpaces": true
 ```
 
-*Ignore files / folders*
+*文件或者文件夹忽略*
 
-Removes these files / folders from your editor window. 
+把这些文件或者文件夹从你的编辑器窗口移除。 
 
 ```json
 "files.exclude": {
@@ -152,7 +152,7 @@ Removes these files / folders from your editor window.
 }
 ```
 
-Remove these files / folders from search results. 
+把这些文件或者文件夹从搜索结果中移除。
 
 ```json
 "search.exclude": {
@@ -161,7 +161,7 @@ Remove these files / folders from search results.
 }
 ```
 
-And many, many [others](http://code.visualstudio.com/docs/customization/userandworkspace).
+以及许多其他功能，[详情点击此处](http://code.visualstudio.com/docs/customization/userandworkspace)。
 
 ## Preview themes
 
