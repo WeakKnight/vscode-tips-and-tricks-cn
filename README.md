@@ -16,79 +16,80 @@
 
 > The key bindings below may or may not be accurate with the latest build. Check on the Default Keyboard shortcuts file. 
 
-# Basics
+# 基本
 
-## Open command palette
+## 打开命令面板
 
-Easy access to all commands available in VS Code. 
+通过命令面板可以很方便的访问到VS Code所有的可用命令
 
 > Mac: <kbd>cmd+shift+p</kbd> or <kbd>f1</kbd>
 
 
-> Windows / Linux: <kbd>ctrl+shift+p</kbd> or <kbd>f1</kbd>
+
+> Windows / Linux: <kbd>ctrl+shift+p</kbd> 或 <kbd>f1</kbd>
 
 ![command palette](/media/command_p.png)
 
 ## Reference keybindings
 
-All of the commands are in the command palette with the associated key binding (if it exists). If you forget what the key binding is use the command palette to help you out. 
+在命令面板中的所有命令都有与之对应的快捷键。如果你忘记快捷键是什么，可以打开命令面板来查看。
 
-## Quick open
+## 快捷开启Quick open
 
-Quickly open files and run commands (see below). 
+快速的打开文件和运行相关命令(操作如下)
 
 > Mac: <kbd>cmd+p</kbd>
 
 
+
 > Windows / Linux: <kbd>ctrl+p</kbd>
 
-Type "?" to view help suggestions. 
+在快捷开启输入框中键入“?”来浏览相关帮助信息。
 
-## Copy and paste commands into quick open
+## 将命令复制并粘贴在快速打开输入框中Copy and paste commands into quick open
 
-<kbd>cmd+p</kbd> then paste the command you want to run. This is especially
-useful with the extension marketplace. 
+先按<kbd>cmd+p</kbd>唤出快速打开输入框然后将命令粘贴进去。这一技巧在使用插件商城时尤为有用 。
 
 ![marketplace copy and paste](/media/mp_copy_paste.png)
 
-## Command line arguments
+## 命令行操作Command line arguments
 
-Open the command palette (<kbd>F1</kbd>) and type "shell command". Hit enter
-to execute "Shell Command: Install 'code' command in PATH". 
+打开命令面板 (<kbd>F1</kbd>) 然后键入"shell command"。运行"Shell Command: Install 'code' command in PATH"这一命令。 
 
 ![shell command](/media/setup_shell-command.png)
 
 
 ```bash
-# create a new window
+# 创建新窗口
 code -n
 
-# change the language
+# 改变语言
 code --locale=es
 
-# open diff editor
+# 创建一个比对编辑器
 code --diff <file1> <file2>
 
-# see help options
+# 浏览帮助选项
 code --help
 ```
 
-## .vscode folder
+## .vscode 文件夹
 
-Workspace specific files are in `.vscode`. For example, `tasks.json` for the Task Runner and `launch.json` for the debugger.
+工作空间的文件都在 `.vscode`文件夹中。比如 `tasks.json` 是关于task runner的配置文件， `launch.json` 是关于debugger的配置文件。
 
-## Status bar decorations
+## 状态条Status bar decorations
 
-**Errors and Warnings**
+**错误和警告**
 
 > Mac: <kbd>shift+cmd+m</kbd>
 
 
+
 > Windows / Linux: <kbd>ctrl+shift+m</kbd>
 
-Quickly jump to errors and warnings in the project. 
+快速跳转到项目中的报错位置。
 
-Cycle through errors with <kbd>f8</kbd> or <kbd>shift+f8</kbd>
+按 <kbd>f8</kbd> 或 <kbd>shift+f8</kbd>跳转到下一个报错位置
 
 ![status errors and warnings](/media/status_errors_warnings.png)
 
@@ -101,6 +102,7 @@ Badges will appear in the bottom left of the status bar.
 **Change language mode**
 
 > Mac: <kbd>cmd+k m</kbd>
+
 
 
 > Windows / Linux: <kbd>ctrl+k m</kbd>
@@ -116,6 +118,7 @@ Lots of things you can do here. Check out the full [documentation](http://code.v
 Open `settings.json` 
 
 > Mac: <kbd>cmd+,</kbd>
+
 
 
 > Windows / Linxu: File -> Preferences -> User Settings
@@ -242,6 +245,7 @@ See more in the [documentation](http://code.visualstudio.com/docs/languages/json
 > Mac: <kbd>cmd+shift+p</kbd> 
 
 
+
 > Windows / Linux: <kbd>ctrl+shift+p</kbd>
 
 then type "ext install". Select the extension you want and hit <kbd>enter</kbd>
@@ -253,6 +257,7 @@ then type "ext install". Select the extension you want and hit <kbd>enter</kbd>
 > Mac: <kbd>cmd+shift+p</kbd>
 
 
+
 > Windows / Linux: <kbd>ctrl+shift+p</kbd>
 
 then type "ext", then select "Show Extension Recommendations"
@@ -262,6 +267,7 @@ then type "ext", then select "Show Extension Recommendations"
 ## Uninstall an extension
 
 > Mac: <kbd>cmd+shift+p</kbd>
+
 
 
 > Windows / Linux: <kbd>ctrl+shift+p</kbd>
@@ -292,6 +298,7 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 > Mac: <kbd>cmd+b</kbd>
 
 
+
 > Windows / Linux: <kbd>ctrl+b</kbd>
 
 ![toggle side bar](/media/toggle_side_bar.gif)
@@ -301,6 +308,7 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 > Mac: <kbd>cmd+\\</kbd> or <kbd>cmd</kbd> then click a file from the file browser. 
 
 
+
 > Windows / Linux: <kbd>ctrl+\\</kbd>
 
 ![split editors](/media/split_editor.gif)
@@ -308,6 +316,7 @@ Open `settings.json` with <kbd>cmd+,</kbd>
 ## Switch between editors
 
 > Mac: <kbd>cmd+1</kbd>, <kbd>cmd+2</kbd>, <kbd>cmd+3</kbd>
+
 
 
 > Windows / Linux: <kbd>ctrl+1</kbd>, <kbd>ctrl+2</kbd>, <kbd>ctrl+3</kbd>
@@ -323,11 +332,13 @@ Navigate back.
 > Mac: <kbd>ctrl+-</kdbd>
 
 
+
 > Windows / Linux: <kbd>alt+left</kbd>
 
 Navigate Forward.
 
 > Mac: <kbd>ctrl+shift+up</kbd>
+
 
 
 > Windows / Linux: <kbd>alt+right</kbd>
@@ -337,6 +348,7 @@ Navigate Forward.
 ## Navigate to a file
 
 > Mac: <kbd>cmd+e</kbd> or <kbd>cmd+p</kbd>
+
 
 
 > Windows / Linux: <kbd>ctrl+e</kbd> or <kbd>ctrl+p</kbd>
@@ -362,6 +374,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 > Mac: <kbd>up+cmd+\\<kbd>
 
 
+
 > Windows / Linux: <kbd>ctrl+shift+\\</kbd>
 
 ![bracket matching](/media/bracket_matching.gif)
@@ -371,6 +384,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#_selection-multicursor).
 
 > Mac: <kbd>opt+cmd+up</kbd> or <kbd>opt+cmd+down</kbd>
+
 
 
 > Windows / Linux: <kbd></kbd>
@@ -388,6 +402,7 @@ Add more cursors to current selection.
 > Mac: <kbd>opt+shift+up</kbd> or <kbd>opt+shift+down</kbd>
 
 
+
 > Windows / Linux: <kbd>shift+alt+down</kbd> or <kbd>shift+alt+up</kbd>
 
 ![copy line down](/media/copy_line_down.gif)
@@ -399,6 +414,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 > Mac: <kbd>ctrl+shift+cmd+left</kbd> or <kbd>ctrl+shift+cmd+right</kbd>
 
 
+
 > Windows / Linux: <kbd>shift+alt+left</kbd> or <kbd>shift+alt+right</kbd>
 
 ![shrink expand selection](/media/shrink_expand_selection.gif)
@@ -406,6 +422,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 ## Find by symbol
 
 > Mac: <kbd>cmd+shift+o</kbd>
+
 
 
 > Windows: <kbd>ctrl+shift+o</kbd>
@@ -417,6 +434,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 > Mac: <kbd>ctrl+g</kbd> or <kbd>cmd+p, :</kbd>
 
 
+
 > Windows / Linux: <kbd>ctrl+g</kbd>
 
 ![navigate to line](/media/navigate_to_line.gif)
@@ -424,6 +442,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 ## Undo cursor position
 
 > Mac: <kbd>cmd+u</kbd>
+
 
 
 > Windows / Linux: <kbd>ctrl+u</kbd>
@@ -435,6 +454,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 > Mac: <kbd>opt+up</kbd> or <kbd>opt+down</kbd>
 
 
+
 > Windows / Linux: <kbd>alt+up</kbd> or <kbd>alt+down</kbd>
 
 ![move line up and down](/media/move_line.gif)
@@ -442,6 +462,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 ## Trim trailing whitespace
 
 > Mac: <kbd>shift+up+x</kbd>
+
 
 
 > Windows / Linux: <kbd>ctrl+shift+x</kbd>
@@ -459,6 +480,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 > Mac: <kbd>shift+cmd+\[</kbd> and <kbd>shift+cmd+\]</kbd>
 
 
+
 > Windows / Linux: <kbd>ctrl+shift+\[</kbd> and <kbd>ctrl+shift+\]</kbd>
 
 ![code folding](/media/code_folding.gif)
@@ -466,6 +488,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 ## Select current line
 
 > Mac: <kbd>cmd+i</kbd>
+
 
 
 > Windows / Linux: <kbd>ctrl+i</kbd>
@@ -477,6 +500,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 > Mac: <kbd>cmd+up</kbd> and <kbd>cmd+down</kbd>
 
 
+
 > Windows / Linux: <kbd>ctrl+up</kbd> and <kbd>ctrl+down</kbd>
 
 ![navigate to beginning and end of file](/media/beginning_end_file.gif)
@@ -486,6 +510,7 @@ More in [documentation](http://code.visualstudio.com/docs/editor/editingevolved#
 In a markdown file use 
 
 > Mac: <kbd>shift+cmd+v</kbd>
+
 
 
 > Windows / Linux: <kbd>ctrl+shift+v</kbd>
@@ -696,6 +721,7 @@ what git commands are running. This is helpful when learning git or debugging a 
 source control issue. 
 
 > Mac: <kbd>shift+cmd+u</kbd> 
+
 
 
 > Windows / Linux: <kbd>ctrl+shift+u</kbd>
