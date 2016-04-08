@@ -34,7 +34,7 @@
 
 在命令面板中的所有命令都有与之对应的快捷键。如果你忘记快捷键是什么，可以打开命令面板来查看。
 
-## 快捷开启Quick open
+## 快捷开启
 
 快速的打开文件和运行相关命令(操作如下)
 
@@ -46,13 +46,13 @@
 
 在快捷开启输入框中键入“?”来浏览相关帮助信息。
 
-## 将命令复制并粘贴在快速打开输入框中Copy and paste commands into quick open
+## 将命令复制并粘贴在快速打开输入框中
 
 先按<kbd>cmd+p</kbd>唤出快速打开输入框然后将命令粘贴进去。这一技巧在使用插件商城时尤为有用 。
 
 ![marketplace copy and paste](/media/mp_copy_paste.png)
 
-## 命令行操作Command line arguments
+## 命令行操作
 
 打开命令面板 (<kbd>F1</kbd>) 然后键入"shell command"。运行"Shell Command: Install 'code' command in PATH"这一命令。 
 
