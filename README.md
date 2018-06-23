@@ -163,13 +163,13 @@ code --help
 
 以及许多其他功能，[详情点击此处](http://code.visualstudio.com/docs/customization/userandworkspace)。
 
-## Preview themes
+## 预览主题
 
 ![Preview themes](/media/preview_themes.gif)
 
-## json validation
+## json 合法性校验
 
-Enabled by default for many files. Create your own schema and validation in `settings.json`
+更多类型的json配置文件的合法性检验默认开启,你也可以在`settings.json`里指定你自己的规则(JSON Schema)，如果想进一步了解这种检验规则的规则，[请点击此处](https://spacetelescope.github.io/understanding-json-schema/)。
 
 ```json
 "json.schemas": [
@@ -182,7 +182,7 @@ Enabled by default for many files. Create your own schema and validation in `set
 ]
 ```
 
-or for a schema defined in your workspace
+这个规则也可以引用你的工作空间
 
 ```json
 "json.schemas": [
@@ -195,7 +195,7 @@ or for a schema defined in your workspace
 ]
 ```
 
-or a custom schema
+或者一个自定义的规则
 
 ```json
 "json.schemas": [
@@ -215,9 +215,9 @@ or a custom schema
     },
 ```
 
-See more in the [documentation](http://code.visualstudio.com/docs/languages/json).
+在[文档](http://code.visualstudio.com/docs/languages/json)中了解更多.
 
-# Extensions
+# 插件扩展
 
 ## Contribution points
 
